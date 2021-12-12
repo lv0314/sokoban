@@ -581,7 +581,7 @@ function save(n){
 }
 
 function load(n){
-    var save = saveslot[n-1]
+    let save = saveslot[n-1]
     currentMap = save.map;
     turn = save.turn;
     stageCheck = save.stagech;
